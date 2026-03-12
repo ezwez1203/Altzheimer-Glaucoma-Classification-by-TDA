@@ -1,0 +1,23 @@
+# Requirements for Topology-Aware Retinal Artery-Vein Classification
+# Based on: "Topology-Aware Retinal Artery–Vein Classification via Deep Vascular Connectivity Prediction"
+
+# Core dependencies
+torch>=1.9.0
+torchvision>=0.10.0
+numpy>=1.19.0
+scipy>=1.7.0
+Pillow>=8.0.0
+
+# Image processing
+scikit-image>=0.18.0
+opencv-python>=4.5.0
+
+# Training utilities
+tqdm>=4.60.0
+tensorboard>=2.5.0
+
+# Additional utilities
+matplotlib>=3.4.0
+
+# Optional: for faster data loading
+# albumentations>=1.0.0
