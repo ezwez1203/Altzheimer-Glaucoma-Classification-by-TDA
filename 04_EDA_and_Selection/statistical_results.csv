@@ -1,13 +1,19 @@
 feature,test_used,statistic,p_value,significant
+avg_edge_thickness,Kruskal-Wallis,18.9534,7.7e-05,True
+vessel_density,ANOVA,9.9982,0.000241,True
 fractal_dimension,ANOVA,9.2408,0.000413,True
+total_endpoints,Kruskal-Wallis,14.9076,0.000579,True
+total_junctions,Kruskal-Wallis,14.2608,0.0008,True
+total_edges,Kruskal-Wallis,14.1152,0.000861,True
 b0_sum_lifespan,Kruskal-Wallis,8.2072,0.016513,True
+avg_edge_length,ANOVA,2.3739,0.104196,False
 b0_max_lifespan,Kruskal-Wallis,4.1668,0.124505,False
 AVR,Kruskal-Wallis,2.3957,0.301836,False
-flood_b0_max_lifespan,Kruskal-Wallis,0.5731,0.750857,False
 flood_b0_sum_lifespan,Kruskal-Wallis,0.5731,0.750857,False
-b1_max_lifespan,skipped (zero variance),0.0,1.0,False
-b1_count,skipped (zero variance),0.0,1.0,False
+flood_b0_max_lifespan,Kruskal-Wallis,0.5731,0.750857,False
 persistence_entropy,skipped (zero variance),0.0,1.0,False
-flood_b1_count,skipped (zero variance),0.0,1.0,False
-flood_b1_max_lifespan,skipped (zero variance),0.0,1.0,False
 flood_persistence_entropy,skipped (zero variance),0.0,1.0,False
+b1_count,skipped (zero variance),0.0,1.0,False
+b1_max_lifespan,skipped (zero variance),0.0,1.0,False
+flood_b1_max_lifespan,skipped (zero variance),0.0,1.0,False
+flood_b1_count,skipped (zero variance),0.0,1.0,False

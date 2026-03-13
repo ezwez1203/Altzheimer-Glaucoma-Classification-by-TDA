@@ -1,0 +1,19 @@
+feature,test_used,statistic,p_value,significant,group_a_mean,group_b_mean
+avg_edge_thickness,Mann-Whitney U,193.0,0.02276,True,4.9383,5.6627
+vessel_density,Welch t-test,-2.0028,0.051256,False,0.1134,0.129
+fractal_dimension,Mann-Whitney U,218.0,0.073325,False,1.441,1.4751
+b0_sum_lifespan,Mann-Whitney U,224.0,0.094097,False,53.9792,70.8342
+total_edges,Mann-Whitney U,226.5,0.10408,False,313.2174,394.5926
+total_junctions,Mann-Whitney U,227.0,0.106178,False,359.6957,475.2963
+b0_max_lifespan,Mann-Whitney U,229.0,0.114833,False,21.2398,31.7465
+AVR,Mann-Whitney U,337.5,0.128724,False,0.0768,0.0
+total_endpoints,Mann-Whitney U,238.0,0.161065,False,366.2609,439.2222
+avg_edge_length,Welch t-test,1.0612,0.294927,False,42.0392,39.4733
+flood_b0_sum_lifespan,Mann-Whitney U,314.5,0.884868,False,0.1386,0.1791
+flood_b0_max_lifespan,Mann-Whitney U,314.5,0.884868,False,0.1386,0.1791
+persistence_entropy,skipped (zero variance),0.0,1.0,False,0.0,0.0
+flood_persistence_entropy,skipped (zero variance),0.0,1.0,False,0.0,0.0
+b1_count,skipped (zero variance),0.0,1.0,False,0.0,0.0
+b1_max_lifespan,skipped (zero variance),0.0,1.0,False,0.0,0.0
+flood_b1_max_lifespan,skipped (zero variance),0.0,1.0,False,0.0,0.0
+flood_b1_count,skipped (zero variance),0.0,1.0,False,0.0,0.0

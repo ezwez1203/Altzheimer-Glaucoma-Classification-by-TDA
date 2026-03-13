@@ -7,7 +7,7 @@ import os
 import numpy as np
 import pandas as pd
 
-from config import TRACK_A_CSV, TRACK_B_CSV, LABELS_CSV, ID_COLS
+from config import TRACK_A_CSV, TRACK_B_CSV, GRAPH_MACRO_CSV, LABELS_CSV, ID_COLS
 
 
 def load_and_merge_data() -> pd.DataFrame:
@@ -32,6 +32,13 @@ def load_and_merge_data() -> pd.DataFrame:
     # merge on subject_id + dataset
     df = pd.merge(df_a, df_b, on=ID_COLS, how="outer")
     print(f"  Merged:  {len(df)} rows, {len(df.columns)} cols")
+
+    # merge graph macro features (if available)
+    if os.path.exists(GRAPH_MACRO_CSV):
+        df_g = pd.read_csv(GRAPH_MACRO_CSV)
+        print(f"  Graph:   {len(df_g)} rows, {len(df_g.columns)} cols")
+        df = pd.merge(df, df_g, on=ID_COLS, how="left")
+        print(f"  + Graph: {len(df)} rows, {len(df.columns)} cols")
 
     # load or generate labels
     if os.path.exists(LABELS_CSV):
