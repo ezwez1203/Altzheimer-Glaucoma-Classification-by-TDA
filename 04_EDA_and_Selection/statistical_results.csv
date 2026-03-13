@@ -1,0 +1,13 @@
+feature,test_used,statistic,p_value,significant
+fractal_dimension,ANOVA,9.2408,0.000413,True
+b0_sum_lifespan,Kruskal-Wallis,8.2072,0.016513,True
+b0_max_lifespan,Kruskal-Wallis,4.1668,0.124505,False
+AVR,Kruskal-Wallis,2.3957,0.301836,False
+flood_b0_max_lifespan,Kruskal-Wallis,0.5731,0.750857,False
+flood_b0_sum_lifespan,Kruskal-Wallis,0.5731,0.750857,False
+b1_max_lifespan,skipped (zero variance),0.0,1.0,False
+b1_count,skipped (zero variance),0.0,1.0,False
+persistence_entropy,skipped (zero variance),0.0,1.0,False
+flood_b1_count,skipped (zero variance),0.0,1.0,False
+flood_b1_max_lifespan,skipped (zero variance),0.0,1.0,False
+flood_persistence_entropy,skipped (zero variance),0.0,1.0,False

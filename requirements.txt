@@ -1,0 +1,16 @@
+# RetiQ pipeline dependencies (02_Graph_Extraction ~ 05_SVM)
+# Install: conda activate cuda_tda && pip install -r requirements.txt
+# For 01_VCP, use the separate vcp conda environment with PyTorch.
+
+numpy>=2.0.0
+scipy>=1.15.0
+scikit-image>=0.25.0
+networkx>=3.4.0
+Pillow>=12.0.0
+pandas>=2.3.0
+gudhi>=3.11.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.5.0
+joblib>=1.4.0
+imbalanced-learn>=0.12.0

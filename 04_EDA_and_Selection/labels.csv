@@ -1,0 +1,51 @@
+subject_id,label
+01_test,Normal
+02_test,Glaucoma
+03_test,Normal
+04_test,Normal
+05_test,Normal
+06_test,Glaucoma
+07_test,Normal
+08_test,Normal
+09_test,Normal
+10_test,Glaucoma
+11_test,Normal
+12_test,Normal
+13_test,Normal
+14_test,Normal
+15_test,Glaucoma
+16_test,Normal
+17_test,Glaucoma
+18_test,Glaucoma
+19_test,Glaucoma
+20_test,Normal
+STAR 01_OSC,Alzheimer
+STAR 02_ODC,Normal
+STAR 03_OSN,Alzheimer
+STAR 05_ODC,Alzheimer
+STAR 06_ODN,Alzheimer
+STAR 08_OSN,Alzheimer
+STAR 09_OSN,Alzheimer
+STAR 10_OSN,Alzheimer
+STAR 13_OSN,Alzheimer
+STAR 15_OSN,Alzheimer
+STAR 16_OSN,Normal
+STAR 17_ODN,Normal
+STAR 20_ODC,Alzheimer
+STAR 21_OSC,Alzheimer
+STAR 24_OSC,Alzheimer
+STAR 26_ODC,Normal
+STAR 28_ODN,Alzheimer
+STAR 30_ODC,Normal
+STAR 31_ODN,Normal
+STAR 32_ODC,Normal
+STAR 34_ODC,Normal
+STAR 36_OSC,Normal
+STAR 37_ODN,Alzheimer
+STAR 38_ODC,Alzheimer
+STAR 39_ODC,Alzheimer
+STAR 40_OSC,Alzheimer
+STAR 43_OSC,Alzheimer
+STAR 44_OSN,Normal
+STAR 45_ODC,Alzheimer
+STAR 48_OSN,Alzheimer
